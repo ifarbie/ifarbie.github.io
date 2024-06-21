@@ -4,14 +4,46 @@
 
 body {
   background: #121212;
+  color: white;
+  overflow-y: scroll;
+  overflow-x: hidden;
 }
 
-.translateY {
+.translateX-test {
   transform: translateX(150%)
 }
-
-.translate3d {
+.translateYmin-test {
+  transform: translateY(-150%)
+}
+.scale-test {
+  transform: scale(150%)
+}
+.translate3d-test {
   transform: translate3d(0, 100%, 0);
+}
+
+.nav-active {
+  position: relative;
+  color: white;
+}
+
+.pict {
+  box-shadow: 0 0 73px -9px rgba(119, 255, 255, .44)
+}
+.pict:hover {
+  box-shadow: 0 0 73px -9px rgba(119, 255, 255, .60)
+}
+
+.nav-active::after {
+  content: '';
+  transition: all;
+  width: 100%;
+  height: 0.25rem;
+  border-radius: 0.25rem;
+  background-color: #0ea5e9;
+  position: absolute;
+  left: 0;
+  bottom: -0.35rem;
 }
 
 ::-webkit-scrollbar {
@@ -20,7 +52,7 @@ body {
 }
 
 ::-webkit-scrollbar-thumb {
-  background: #ffdb70;
+  background: #0ea5e9;
   border-radius: 5px;
 }
 
