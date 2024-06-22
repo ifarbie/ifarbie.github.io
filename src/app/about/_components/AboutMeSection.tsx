@@ -24,7 +24,7 @@ const AboutMeContent = () => {
   return (
     <section className="flex-col flex justify-center items-center md:flex-row lg:gap-2">
       <div className="flex justify-center mb-7">
-        <Image className="rounded-full aspect-square w-9/12 h-auto animate-fadeInFromBot_1 opacity-0" src="/img/foto-semi_formal.jpeg" width={500} height={500} alt="Fariz" />
+        <Image priority={true} className="rounded-full aspect-square w-9/12 h-auto animate-fadeInFromBot_1 opacity-0" src="/img/foto-semi_formal.jpeg" width={500} height={500} alt="Fariz" />
       </div>
       <div className="text-justify flex flex-col gap-3 mb-5 text-sm md:text-base md:w-11/12 lg:gap-7 lg:w-9/12 lg:text-lg xl:text-xl">
         <p className="indent-8 animate-fadeInFromRight opacity-0">
