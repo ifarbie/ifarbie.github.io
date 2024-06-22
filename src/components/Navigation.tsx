@@ -9,7 +9,7 @@ const Navigation = ({ gap = "0" }: { gap?: string }) => {
     <ul className="flex justify-around items-center font-semibold text-xs md:text-sm " style={{ gap }}>
       {navData.map((data, i) => (
         <li key={data.path} className={`animate-fadeInFromUp opacity-0`} style={{ animationDelay: `${(i + 5) * 2}00ms` }}>
-          <Link href={data.path} className={`text-gray-700 hover:text-gray-100 transition duration-300 ${pathname === data.path ? "nav-active" : ""}`}>
+          <Link href={data.path} className={`text-gray-400 hover:text-gray-100 transition duration-300 ${pathname === data.path ? "nav-active" : ""}`}>
             {data.name}
           </Link>
         </li>
