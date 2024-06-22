@@ -9,7 +9,7 @@ const ProjectCard = ({ project }: { project: Project }) => {
     <div key={project.name} className="bg-[#1e1e1f] border border-[#383838] rounded-xl p-5 flex flex-col justify-between transition duration-100 hover:-translate-y-2">
       <div className="mb-6">
         <div>
-          <Image className="rounded-xl w-full" src={project.img} alt="image" width={2000} height={2000} />
+          <Image placeholder="blur" className="rounded-xl w-full" src={project.img} alt="image" width={2000} height={2000} />
         </div>
         <h3 className="text-sky-100 text-center my-3 font-medium text-sm tracking-wide md:text-base lg:text-lg">{project.name}</h3>
         <p className="text-xs text-[#c1c1c1] md:text-sm">{project.description}</p>
