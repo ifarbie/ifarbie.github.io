@@ -9,19 +9,6 @@ body {
   overflow-x: hidden;
 }
 
-.translateX-test {
-  transform: translateX(150%)
-}
-.translateYmin-test {
-  transform: translateY(-150%)
-}
-.scale-test {
-  transform: scale(150%)
-}
-.translate3d-test {
-  transform: translate3d(0, 100%, 0);
-}
-
 .nav-active {
   position: relative;
   color: white;
