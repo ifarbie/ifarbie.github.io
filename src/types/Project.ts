@@ -4,7 +4,7 @@ type Project = {
     description: string,
     skills: string,
     github: string,
-    url: string
+    url?: string
 }
 
 export default Project
