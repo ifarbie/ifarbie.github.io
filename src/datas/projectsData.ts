@@ -1,5 +1,12 @@
 const projectsData = [
   {
+    img: '/img/projects/notes-app.png',
+    name: 'Notes App',
+    description: `Notes App is a case study project developed for an internship application, using the tech stack prescribed by the company: TypeScript, Next.js, PostgreSQL, and Chakra UI. It supports creating, reading, updating, and deleting notes, as well as viewing note details, and showcases implementation of skills learned in GraphQL.`,
+    skills: 'TypeScript, Next.js, PostgreSQL, Prisma, Chakra UI',
+    github: 'https://github.com/ifarbie/notes-app',
+  },
+  {
     img: '/img/projects/steampowered.com-clone.png',
     name: 'Steampowered.com Clone',
     description: `Steampowered.com Clone is a collaborative project built using the MERN stack with MySQL and Tailwind CSS. It features users authentication, product listings, shopping cart functionalities, and user management, providing a fully functional prototype that mimics the core functionalities of steampowered.com.`,
@@ -30,6 +37,14 @@ const projectsData = [
     github: 'https://github.com/ifarbie/gpa-calculator',
     url: 'https://ifarbie.github.io/gpa-calculator/',
   },
+  // {
+  //   img: '/img/projects/jakarta-waspada-banjir.png',
+  //   name: 'Jakarta Waspada Banjir',
+  //   description: `Jakarta Waspada Banjir is a website that provides the latest and complete information about the flood situation in DKI Jakarta. It provides information, early warnings, flood data prediction and visualization, comprehensive information maps, important news, questions and answers, and emergency contacts related to the flood situation in DKI Jakarta.`,
+  //   skills: 'TypeScript, Next.js, Tailwind CSS',
+  //   github: 'https://github.com/ifarbie/jawaban-landing-page',
+  //   url: 'https://jakarta-waspada-banjir.netlify.app/',
+  // },
   {
     img: '/img/projects/crud-posts.png',
     name: 'CRUD Posts',

@@ -16,7 +16,8 @@ const allowedDomains = [
   'raw.githubusercontent.com',
   'joi.dev',
   'opengraph.githubassets.com',
-  'gorm.io'
+  'gorm.io',
+  'i.pinimg.com'
 ];
 
 const nextConfig = {

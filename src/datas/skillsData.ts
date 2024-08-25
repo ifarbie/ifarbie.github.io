@@ -81,6 +81,10 @@ export const frameworkOrLibrarySkillDatas: Skill[] = [
     name: 'Sequelize',
     icon: 'https://cdn.icon-icons.com/icons2/2415/PNG/512/sequelize_original_logo_icon_146348.png',
   },
+  {
+    name: 'Prisma',
+    icon: 'https://i.pinimg.com/originals/39/b2/e4/39b2e4ad77c23a2c11e5950a7dfa2aec.png',
+  },
 ];
 
 export const toolSkillDatas: Skill[] = [
